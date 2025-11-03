@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff3e0;
+    padding-top: 300px;
+}
+
+#key {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+#new__game {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 250ms ease;
+    margin-bottom: 100px;
+}
+#new__game:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
