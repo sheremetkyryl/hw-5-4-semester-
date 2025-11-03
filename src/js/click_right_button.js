@@ -16,14 +16,6 @@ let currentKeyIndex = Math.floor(Math.random() * keys.length);
 const text = document.getElementById("text")
 const key = document.getElementById("key")
 key.textContent = keys[currentKeyIndex]
-
-//  if (!keys.includes(pressedKey)) {
-//     layoutHint.classList.add("visible");
-//     return; // виходимо, щоб не показувати PNotify
-//   } else {
-//     layoutHint.classList.remove("visible");
-//   }
-
   
 document.addEventListener("keydown", (event) => {
     if(event.key === keys[currentKeyIndex]) {
